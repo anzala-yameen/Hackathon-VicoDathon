@@ -1,8 +1,8 @@
 import json
 import sqlite3
 from typing import Dict, Any, List
-from app.database import get_db
-from app.services.llm_service import llm_service
+from database import get_db
+from services.llm_service import llm_service
 
 class FeedbackService:
     def generate_feedback(self, session_id: str) -> Dict[str, Any]:
