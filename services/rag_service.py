@@ -3,7 +3,7 @@ import math
 import re
 from typing import List, Dict, Any, Optional
 from pathlib import Path
-from app.config import settings
+from config import settings
 
 def tokenize(text: str) -> List[str]:
     """Tokenize text into lowercase alphanumeric words."""
