@@ -3,10 +3,10 @@ import uuid
 import sqlite3
 import logging
 from typing import Dict, Any, List, Optional, Union
-from app.config import settings
-from app.database import get_db
-from app.services.rag_service import rag_engine
-from app.services.llm_service import llm_service
+from config import settings
+from database import get_db
+from services.rag_service import rag_engine
+from services.llm_service import llm_service
 
 logger = logging.getLogger(__name__)
 
