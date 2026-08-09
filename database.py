@@ -2,7 +2,7 @@ import json
 import sqlite3
 from typing import Dict, Any, List, Optional
 from pathlib import Path
-from app.config import settings
+from config import settings
 
 DB_FILE = Path("./interview_agent.db")
 
