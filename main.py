@@ -4,9 +4,9 @@ from fastapi import FastAPI, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
-from app.config import settings
-from app.database import init_db, get_db
-from app.models.schemas import (
+from config import settings
+from database import init_db, get_db
+from models.schemas import (
     StartInterviewRequest,
     StartInterviewResponse,
     RespondInterviewRequest,
