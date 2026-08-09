@@ -2,7 +2,7 @@ import json
 import logging
 import random
 from typing import Dict, Any, List, Optional
-from app.config import settings
+from config import settings
 
 logger = logging.getLogger(__name__)
 
